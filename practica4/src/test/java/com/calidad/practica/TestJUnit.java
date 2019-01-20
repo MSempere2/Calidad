@@ -83,6 +83,7 @@ public class TestJUnit {
 		assertTrue(tienda.comprobarArticulos());
 	}
 
+/*
 	// Caso Fallido
 
 	@Test
@@ -116,7 +117,7 @@ public class TestJUnit {
 		System.out.println("Comprobacion de que la lista de articulos es la misma FF");
 		assertSame(testString, tienda.listarMarcas());
 	}
-
+*/
 	// Caso Correcto
 
 	@Test
@@ -124,7 +125,7 @@ public class TestJUnit {
 		System.out.println("Comprobacion de que la lista de articulos no es la misma");
 		assertNotSame(testString, tienda.listarMarcas());
 	}
-
+/*
 	// Caso Fallido
 
 	@Test
@@ -132,5 +133,5 @@ public class TestJUnit {
 		System.out.println("Comprobacion de que el array de tienda y el de test es el mismo FF");
 		assertArrayEquals(testString, tienda.hacerCompra());
 	}
-
+*/
 }
